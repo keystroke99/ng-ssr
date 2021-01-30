@@ -1,3 +1,1086 @@
-<h2>Welcome to home section</h2>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex" />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="Description" content="">
+		<meta name="Author" content="">
+		<meta name="keywords" content=""/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+        <title>Dummy Jobs</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="../../../assets/css/custom.css" rel="stylesheet" />
+        
+	</head>
+<body>
+  
+    <div class="header-main">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-7 col-sm-4 col-7">
+                        <div class="top-bar-left d-flex">
+                            <ul class="socials">
+                                <li><a class="social-icon" href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a class="social-icon" href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a class="social-icon" href="#"><i class="fa fa-linkedin"></i></a></li>
+										<li><a class="social-icon" href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                            <ul class="contact border-left">
+                                <li class="">
+                                    <a href="#" class="callnumber"><span><i class="fa fa-envelope mr-1"></i> support@dummyjobs.com</span></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-sm-8 col-5">
+                        <div class="top-bar-right">
+                            <ul class="custom">
+                                <li><a href="login.html"><i class="fa fa-black-tie mr-1"></i> <span>Employers Login</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="container">
+                <div class="brand">
+                    <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                </div>
+                <div class="menu">
+                    <ul class="Menu-list">
+                        <li class="active"><a href="index.html" class="active">Home </a></li>
+							<li><span class="horizontalMenu-click"><i class="horizontalMenu-arrow fa fa-angle-down"></i></span><a href="#">Browse Jobs<span class="fa fa-caret-down m-0"></span></a>
+								<ul class="sub-menu">
+									<li><a href="#">Jobs by Location</a></li>
+									<li><a href="#">Job by skill</a></li>
+									<li><a href="#">Job by Designation</a></li>
+									<li><a href="#">Job by Company</a></li>
+									<li><a href="#">Job by Category</a></li>
+									<li><a href="#">Browse All Jobs</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Govt Jobs </a></li>
+							<li><a href="#">Companies </a></li>
+							<li><a href="#">How It Works </a></li>
+                    </ul>
+                    <ul class="mb-0 postjob">
+                        <li class="d-none d-lg-flex">
+                            <span><a class="btn btn-secondary ad-post mt-0" href="#"><i class="fa fa-briefcase"></i> Post a Job</a></span>
+                        </li>
+                        
+                    </ul>
+                    <ul class="usrcrt_lgrgbtns">
+                        <li class=""><a class="btn" href="login.html">Login</a></li>
+						<li class=""><a class="btn" href="register.html">Registration</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
 
-<img src="../../../assets/angular-logo.png" alt="">
+    <div class="jbsearch">
+        <div class="header-text mb-5">
+            <div class="container">
+                <div class="text-center text-white mb-7">
+                    <h1 class="text-center text-white">Find The Best Job For Your Future</h1>
+                    <p>Wake up to find better with dummy jobs.</p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-10 col-lg-12 col-md-12 d-block mx-auto">
+                        <div class="search-background mb-7">
+                            <div class="form row no-gutters">
+                                <div class="form-group  col-xl-4 col-lg-3 col-md-12 mb-0 bg-white">
+                                    <input type="text" class="form-control input-lg br-tr-md-0 br-br-md-0" id="text4" data-multiple="data-multiple" name="keyword" placeholder="Search Jobs">
+                                </div>
+                                <div class="form-group  col-xl-3 col-lg-3 col-md-12 mb-0 bg-white">
+                                    <input type="text" class="form-control input-lg br-md-0" id="text5" placeholder="Select Location">
+                                </div>
+                                <div class="form-group col-xl-3 col-lg-3 col-md-12 select2-lg mb-0 bg-white">
+                                    <select id="select-state">
+                                        <option value="">Select a state...</option>
+                                        <option value="AL">Alabama</option>
+                                        <option value="AK">Alaska</option>
+                                        <option value="AZ">Arizona</option>
+                                        <option value="AR">Arkansas</option>
+                                        <option value="CA">California</option>
+                                        <option value="CO">Colorado</option>
+                                        <option value="CT">Connecticut</option>
+                                        <option value="DE">Delaware</option>
+                                        <option value="DC">District of Columbia</option>
+                                        <option value="FL">Florida</option>
+                                        <option value="GA">Georgia</option>
+                                        <option value="HI">Hawaii</option>
+                                        <option value="ID">Idaho</option>
+                                        <option value="IL">Illinois</option>
+                                        <option value="IN">Indiana</option>
+                                      </select>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-12 mb-0">
+                                    <a href="#" class="btn btn-lg btn-block btn-secondary br-tl-md-0 br-bl-md-0"><i class="fa fa-search mr-1"></i>Search</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="hmslider-img">
+            <div class="container">
+                <div class="small-categories">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="item">
+								<div class="card mb-0">
+									<div class="card-body p-1">
+										<div class="cat-item d-flex">
+											<a href="jobs-list.html"></a>
+											<div class="cat-img mr-4 p-1 brround">
+                                                <img src="assets/img/icon1.png" alt="img" class="w-100">
+                                                <!-- <i class="fa fa-briefcase"></i> -->
+											</div>
+											<div class="cat-desc text-left">
+												<h4 class="mb-1"><b>180000+</b></h4>
+                                                <!-- <small class="badge mr-2 ">Job Posted</small> -->
+                                                <h6 class="card-title fs-18 mb-4"><b>Job Posted</b></h6>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+								<div class="card mb-0">
+									<div class="card-body p-1">
+										<div class="cat-item d-flex">
+											<a href="jobs-list.html"></a>
+											<div class="cat-img mr-4 p-1 brround">
+												<img src="assets/img/icon2.png" alt="img" class="w-100">
+											</div>
+											<div class="cat-desc text-left">
+												<h4 class="mb-1"><b>820000+</b></h4>
+                                                <h6 class="card-title fs-18 mb-4"><b>Jobseekers Listed</b></h6>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+								<div class="card mb-0">
+									<div class="card-body p-1">
+										<div class="cat-item d-flex">
+											<a href="jobs-list.html"></a>
+											<div class="cat-img mr-4 p-1 brround">
+												<img src="assets/img/icon3.png" alt="img" class="w-100">
+											</div>
+											<div class="cat-desc text-left">
+												<h4 class="mb-1"><b>24000+</b></h4>
+                                                <h6 class="card-title fs-18 mb-4"><b>Companies Joined</b></h6>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+								<div class="card mb-0">
+									<div class="card-body p-1">
+										<div class="cat-item d-flex">
+											<a href="jobs-list.html"></a>
+											<div class="cat-img mr-4 p-1 brround">
+												<img src="assets/img/icon4.png" alt="img" class="w-100">
+											</div>
+											<div class="cat-desc text-left">
+												<h4 class="mb-1"><b>12000+ </b></h4>
+                                                <h6 class="card-title fs-18 mb-4"><b>Jobseekers Hired</b></h6>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <div class="sptb bg-white">
+    <div class="container">
+       <div class="section-title center-block text-center"> 
+           <h1>Top Hiring Companies</h1> 
+           <p>Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+        </div>
+        <div class="row">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+               <a href="#">
+                <div class="card topcomp">
+                    <img src="assets/img/products/logo/Infosys-Logo.png" alt="">
+                </div>
+               </a>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                 <div class="card topcomp">
+                     <img src="assets/img/products/logo/cognizant.png" alt="">
+                 </div>
+                </a>
+             </div>
+             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                 <div class="card topcomp">
+                     <img src="assets/img/products/logo/HCL.png" alt="">
+                 </div>
+                </a>
+             </div>
+             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                 <div class="card topcomp">
+                     <img src="assets/img/products/logo/TechM.png" alt="">
+                 </div>
+                </a>
+             </div>
+             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                 <div class="card topcomp">
+                     <img src="assets/img/products/logo/Capgemini.png" alt="">
+                 </div>
+                </a>
+             </div>
+             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                 <div class="card topcomp">
+                     <img src="assets/img/products/logo/synchrony.png" alt="">
+                 </div>
+                </a>
+             </div>
+             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                 <div class="card topcomp">
+                     <img src="assets/img/products/logo/HTC.png" alt="">
+                 </div>
+                </a>
+             </div>
+             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                 <div class="card topcomp">
+                     <img src="assets/img/products/logo/TCS.png" alt="">
+                 </div>
+                </a>
+             </div>
+             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                 <div class="card topcomp">
+                     <img src="assets/img/products/logo/genpact.png" alt="">
+                 </div>
+                </a>
+             </div>
+             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                 <div class="card topcomp">
+                     <img src="assets/img/products/logo/LT.png" alt="">
+                 </div>
+                </a>
+             </div>
+             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                 <div class="card topcomp">
+                     <img src="assets/img/products/logo/Groww-Logo.png" alt="">
+                 </div>
+                </a>
+             </div>
+             <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                 <div class="card topcomp">
+                     <img src="assets/img/products/logo/Swiggy.png" alt="">
+                 </div>
+                </a>
+             </div>
+        </div>
+    </div>
+   
+</div>
+
+ <div class="hmjbcategories">
+    <div class="container">
+        <div class="section-title center-block text-center">
+            <h1>Job Categories</h1>
+            <p>Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+        </div>
+        <div class="home-all-cat center-block text-center ">
+            <div class="row">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/cashier.png" class="imag-service" alt="Cashier">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">Cashier Jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/makeup.png" class="imag-service" alt="beautician">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">Beautician Jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/chauffer.png" class="imag-service" alt="Driver">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">Driver jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/chip.png" class="imag-service" alt="Hardware">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">IT Hardware jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/operator.png" class="imag-service" alt="operator">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">BPO Jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/nurse.png" class="imag-service" alt="nurse">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">Nurse Jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/truck.png" class="imag-service" alt="truck">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">Delivary Jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/web.png" class="imag-service" alt="web">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">IT Software jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/presentation.png" class="imag-service" alt="presentation">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">Teacher/lecturer Jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/hand.png" class="imag-service" alt="Life Insurance">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">Life Insurance Jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/charts.png" class="imag-service" alt="charts">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">Sales Jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="homeitem-all-card text-dark text-center">
+                        <a href="jobs-list.html"></a>
+                        <div class="iteam-all-icon">
+                            <img src="assets/img/products/categories/cooking.png" class="imag-service" alt="cooking">
+                        </div>
+                        <div class="item-all-text mt-3">
+                            <h5 class="mb-0 text-body">Chef Jobs</h5>
+                            <p>496 Open positions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4"> <a href="#" class="btn  btn-primary">View More</a> </div>
+        </div>
+    </div>
+ </div>
+
+ <div class="sptb bg-white">
+     <div class="container">
+        <div class="section-title center-block text-center pb-3">
+            <h1>Browse Jobs by</h1>
+        </div>
+        <section class="space-ptb">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="browse-job d-flex">
+                    <div class="justify-content-center flex-fill browsejobs-menu">
+                        <ul class="nav nav-tabs nav-tabs-02 justify-content-center d-flex mb-3 mb-md-0" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <a class="nav-link active" id="industry-tab" data-bs-toggle="pill" href="#industry" role="tab" aria-controls="industry" aria-selected="true">Industry</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <a class="nav-link" id="department-tab" data-bs-toggle="pill" href="#department" role="tab" aria-controls="department" aria-selected="false">Department                            </a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <a class="nav-link" id="location-tab" data-bs-toggle="pill" href="#location" role="tab" aria-controls="location" aria-selected="false">Location</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="skills-tab" data-bs-toggle="pill" href="#skills" role="tab" aria-controls="skills" aria-selected="false">Skills</a>
+                              </li>
+                          </ul>
+                    </div>
+                  </div>
+
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="industry" role="tabpanel" aria-labelledby="industry-tab">
+                        <div class="row mt-4 mt-md-5">
+                            <div class="col-md-4 border-right mb-3 mb-md-0">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Accountancy</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Apprenticeships</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Banking</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Charity &amp; Voluntary</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Construction &amp; Property</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Customer Service</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Education</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Energy</h6> <span class="category-count">3350</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Engineering</h6> <span class="category-count">2948</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Estate Agency</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-4 border-right mb-3 mb-md-0">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Financial Services</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">FMCG</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">General Insurance</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Graduate Training &amp; Internships</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Health &amp; Medicine</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Hospitality &amp; Catering</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Human Resources</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">IT &amp; Telecoms</h6> <span class="category-count">3350</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Legal</h6> <span class="category-count">2948</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Leisure &amp; Tourism</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Manufacturing</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Marketing &amp; PR</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Media, Digital &amp; Creative</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Motoring &amp; Automotive</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Public Sector</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Purchasing</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Retail</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Scientific</h6> <span class="category-count">3350</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Security &amp; Safety</h6> <span class="category-count">2948</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Strategy &amp; Consultancy</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="text-center mt-5">
+                                    <a href="" class="btn  btn-primary "> Browse All Jobs </a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="tab-pane fade" id="department" role="tabpanel" aria-labelledby="department-tab">
+                        <div class="row mt-4 mt-md-5">
+                            <div class="col-md-4 border-right mb-3 mb-md-0">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Sai Manufacturing</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Marketing &amp; PR</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Media, Digital &amp; Creative</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Motoring &amp; Automotive</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Public Sector</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Purchasing</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Retail</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Scientific</h6> <span class="category-count">3350</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Security &amp; Safety</h6> <span class="category-count">2948</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Strategy &amp; Consultancy</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-4 border-right mb-3 mb-md-0">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Accountancy</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Apprenticeships</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Banking</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Charity &amp; Voluntary</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Construction &amp; Property</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Customer Service</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Education</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Energy</h6> <span class="category-count">3350</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Engineering</h6> <span class="category-count">2948</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Estate Agency</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Financial Services</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">FMCG</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">General Insurance</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Graduate Training &amp; Internships</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Health &amp; Medicine</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Hospitality &amp; Catering</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Human Resources</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">IT &amp; Telecoms</h6> <span class="category-count">3350</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Legal</h6> <span class="category-count">2948</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Leisure &amp; Tourism</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="text-center mt-5">
+                                    <a href="" class="btn  btn-primary "> Browse All Jobs </a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
+                        <div class="row mt-4 mt-md-5">
+                            <div class="col-md-4 border-right mb-3 mb-md-0">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Wellesley Rd, London</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Needham, MA</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">New Castle, PA</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Park Avenue, Mumbai</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Green Lanes, London</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Ormskirk Rd, Wigan</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Taunton, London</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Botchergate, Carlisle</h6> <span class="category-count">3350</span> </a></li>
+                                  
+                                  <li><a href="#"><h6 class="category-title">Union St, New Delhi</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-4 border-right mb-3 mb-md-0">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Canyon Village, Ramon</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Fairfield Dr, Granger</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Lynch Lane, Weymouth</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Burry Port, Surat</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">North Miles Street Glasgow</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Lafayette Lane PA</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Mayfair Ave. Astoria, NY</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">South St. Edison, NJ</h6> <span class="category-count">3350</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Ohio Drive Huntsville, AL</h6> <span class="category-count">2948</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Salisbury, MD</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Eastpointe, MI</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Hanover Street Annapolis</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Tanglewood Rd. Joliet, IL</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Valley Stream, NY</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Walt Whitman St. MA</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">301 Glenlake St. NC</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Young Ave. Bridgeport, CT</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">2 Maiden St. OH</h6> <span class="category-count">3350</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Surrey Avenue Euless, TX</h6> <span class="category-count">2948</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Branch Dr. Odenton, MD</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="text-center mt-5">
+                                    <a href="" class="btn  btn-primary "> Browse All Jobs </a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                        <div class="row mt-4 mt-md-5">
+                            <div class="col-md-4 border-right mb-3 mb-md-0">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Wellesley Rd, London</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Needham, MA</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">New Castle, PA</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Park Avenue, Mumbai</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Green Lanes, London</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Ormskirk Rd, Wigan</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Taunton, London</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Botchergate, Carlisle</h6> <span class="category-count">3350</span> </a></li>
+                                  
+                                  <li><a href="#"><h6 class="category-title">Union St, New Delhi</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-4 border-right mb-3 mb-md-0">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Canyon Village, Ramon</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Fairfield Dr, Granger</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Lynch Lane, Weymouth</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Burry Port, Surat</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">North Miles Street Glasgow</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Lafayette Lane PA</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Mayfair Ave. Astoria, NY</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">South St. Edison, NJ</h6> <span class="category-count">3350</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Ohio Drive Huntsville, AL</h6> <span class="category-count">2948</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Salisbury, MD</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="category-style-02">
+                                <ul class="list-unstyled mb-0">
+                                  <li><a href="#"><h6 class="category-title">Eastpointe, MI</h6> <span class="category-count">32761</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Hanover Street Annapolis</h6> <span class="category-count">23703</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Tanglewood Rd. Joliet, IL</h6> <span class="category-count">20321</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Valley Stream, NY</h6> <span class="category-count">9042</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Walt Whitman St. MA</h6> <span class="category-count">5728</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">301 Glenlake St. NC</h6> <span class="category-count">5578</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Young Ave. Bridgeport, CT</h6> <span class="category-count">4399</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">2 Maiden St. OH</h6> <span class="category-count">3350</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Surrey Avenue Euless, TX</h6> <span class="category-count">2948</span> </a></li>
+                                  <li><a href="#"><h6 class="category-title">Branch Dr. Odenton, MD</h6> <span class="category-count">2638</span> </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="text-center mt-5">
+                                  <a href="" class="btn  btn-primary "> Browse All Jobs </a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+     </div>
+ </div>
+
+ <div class="sptb">
+     <div class="container">
+        <div class="section-title center-block text-center">
+            <h2>Jobs by Country</h2>
+            <p>Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+        </div>
+        <div class="row">
+            <div class="col-xl-2 col-lg-4 col-md-6 col-6">
+                <a href="#" class="top-cities card text-center mb-xl-0 box-shadow2">
+                    <img src="assets/img/city-landmark/svg/001-statue-of-liberty.svg" alt="img" class="bg-pink-transparent">
+                    <div class="servic-data mt-3">
+                        <h4 class="font-weight-semibold mb-0">USA</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-6">
+                <a href="#" class="top-cities card text-center mb-xl-0 box-shadow2">
+                    <img src="assets/img/city-landmark/svg/017-taj-mahal.svg" alt="img" class="svg2 bg-purple-transparent">
+                    <div class="servic-data mt-3">
+                        <h4 class="font-weight-semibold mb-0">India</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-6">
+                <a href="#" class="top-cities card text-center  mb-xl-0  box-shadow2">
+                    <img src="assets/img/city-landmark/svg/031-stonehenge.svg" alt="img" class="bg-warning-transparent">
+                    <div class="servic-data mt-3">
+                        <h4 class="font-weight-semibold mb-0">England</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-6">
+                <a href="#" class="top-cities card text-center mb-lg-0 box-shadow2">
+                    <img src="assets/img/city-landmark/svg/002-sydney-opera-house.svg" alt="img" class="bg-danger-transparent">
+                    <div class="servic-data mt-3">
+                        <h4 class="font-weight-semibold mb-0">Sydney</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-6">
+                <a href="#" class="top-cities card text-center mb-0 box-shadow2">
+                    <img src="assets/img/city-landmark/svg/003-brandenburg-gate.svg" alt="img" class="bg-success-transparent">
+                    <div class="servic-data mt-3">
+                        <h4 class="font-weight-semibold mb-0">Germany</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-md-6 col-6">
+                <a href="#" class="top-cities card text-center mb-0 box-shadow2">
+                    <img src="assets/img/city-landmark/svg/010-great-wall-of-china.svg" alt="img" class="bg-info-transparent">
+                    <div class="servic-data mt-3">
+                        <h4 class="font-weight-semibold mb-0">China</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-12">
+                <div class="text-center mt-5">
+                  <a href="" class="btn  btn-primary "> Browse All Country Jobs </a>
+                </div>
+              </div>
+        </div>
+     </div>
+ </div>
+
+ <div class="sptb bg-white">
+    <div class="container">
+       <div class="section-title center-block text-center">
+           <h2>Recent Career Articles</h2>
+       </div>
+       <div class="row">
+           <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="blgimg">
+                <a href="#">
+                    <img src="assets/img/blogpost-1.png" alt="img" class="cover-image">
+                </a>
+              </div>
+              <div class="blgcontent pt-3 pb-3 pl-2 pr-2">
+                <div class="blog-card-desc d-flex mb-2"> 
+                    <a href="#"><i class="fa fa-calendar-o text-muted mr-2"></i>Dec-03-2018</a> 
+                    <div class="ml-auto"> 
+                        <a href="#"><i class="fa fa-comment-o text-muted mr-2"></i>4 Comments</a> 
+                    </div> 
+                </div>
+                  <a href="#" class="text-dark ">
+                    <h5 class="font-weight-semibold">4 leassons you can learn from Sachin Tendulkar to achive you career</h5>
+                  </a>
+                  <a href="#">Read More</a>
+              </div>
+           </div>
+
+           <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="blgimg">
+              <a href="#">
+                  <img src="assets/img/blogpost-2.png" alt="img" class="cover-image">
+              </a>
+            </div>
+            <div class="blgcontent pt-3 pb-3 pl-2 pr-2">
+              <div class="blog-card-desc d-flex mb-2"> 
+                  <a href="#"><i class="fa fa-calendar-o text-muted mr-2"></i>Dec-03-2018</a> 
+                  <div class="ml-auto"> 
+                      <a href="#"><i class="fa fa-comment-o text-muted mr-2"></i>4 Comments</a> 
+                  </div> 
+              </div>
+                <a href="#" class="text-dark ">
+                  <h5 class="font-weight-semibold">5AI jobs in demand and how to get them</h5>
+                </a>
+                <a href="#">Read More</a>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="blgimg">
+              <a href="#">
+                  <img src="assets/img/blogpost-3.png" alt="img" class="cover-image">
+              </a>
+            </div>
+            <div class="blgcontent pt-3 pb-3 pl-2 pr-2">
+              <div class="blog-card-desc d-flex mb-2"> 
+                  <a href="#"><i class="fa fa-calendar-o text-muted mr-2"></i>Dec-03-2018</a> 
+                  <div class="ml-auto"> 
+                      <a href="#"><i class="fa fa-comment-o text-muted mr-2"></i>4 Comments</a> 
+                  </div> 
+              </div>
+                <a href="#" class="text-dark ">
+                  <h5 class="font-weight-semibold">How FIFA 2021 can inspire you overcome a career setback</h5>
+                </a>
+                <a href="#">Read More</a>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="blgimg">
+              <a href="#">
+                  <img src="assets/img/blogpost-4.png" alt="img" class="cover-image">
+              </a>
+            </div>
+            <div class="blgcontent pt-3 pb-3 pl-2 pr-2">
+              <div class="blog-card-desc d-flex mb-2"> 
+                  <a href="#"><i class="fa fa-calendar-o text-muted mr-2"></i>Dec-03-2018</a> 
+                  <div class="ml-auto"> 
+                      <a href="#"><i class="fa fa-comment-o text-muted mr-2"></i>4 Comments</a> 
+                  </div> 
+              </div>
+                <a href="#" class="text-dark ">
+                  <h5 class="font-weight-semibold">Moving to a smaller city could be your big career move</h5>
+                </a>
+                <a href="#">Read More</a>
+            </div>
+         </div>
+       </div>
+    </div>
+</div>
+
+
+<footer class="bg-dark">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-12">
+                    <h6>Jobs by Skill</h6>
+                    <hr class="accent-2 mb-4 mt-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#">Call Center Jobs</a></li>
+                        <li><a href="#">Biotechnology Jobs</a></li>
+                        <li><a href="#">Nursing Jobs</a></li>
+                        <li><a href="#">BPO Jobs</a></li>
+                        <li><a href="#">Networking Jobs</a></li>
+                        <li><a href="#">MBA Jobs</a></li>
+                        <li><a href="#">Java Jobs</a></li>
+                        <li><a href="#">SEO Jobs</a></li>
+                        <li><a href="#">SAP Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <h6>Jobs by Location</h6>
+                    <hr class="accent-2 mb-4 mt-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#">Jobs in Delhi</a></li>
+                        <li><a href="#">Jobs in Bangalore</a></li>
+                        <li><a href="#">Jobs in Mumbai</a></li>
+                        <li><a href="#">Jobs in Chennai</a></li>
+                        <li><a href="#">Jobs in Hyderabad</a></li>
+                        <li><a href="#">Jobs in Kolkata</a></li>
+                        <li><a href="#">Jobs in Pune</a></li>
+                        <li><a href="#">Jobs in Chandigarh</a></li>
+                        <li><a href="#">Jobs in Lucknow</a></li>
+                        <li><a href="#">Jobs in Coimbatore</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <h6>Job by Function</h6>
+                    <hr class="accent-2 mb-4 mt-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#">Banking Jobs</a></li>
+                        <li><a href="#">Biotech Jobs</a></li>
+                        <li><a href="#">Airlines Jobs</a></li>
+                        <li><a href="#">HR Jobs</a></li>
+                        <li><a href="#">Accounts Jobs</a></li>
+                        <li><a href="#">Supply Chain Jobs</a></li>
+                        <li><a href="#">Legal Jobs</a></li>
+                        <li><a href="#">Marketing Jobs</a></li>
+                        <li><a href="#">Telecom Jobs</a></li>
+                        <li><a href="#">Hotels Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <h6>Job by Industry</h6>
+                    <hr class="accent-2 mb-4 mt-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#">IT Jobs</a></li>
+                        <li><a href="#">Pharmaceuticals Jobs</a></li>
+                        <li><a href="#">Travel Jobs</a></li>
+                        <li><a href="#">Oil and Gas Jobs</a></li>
+                        <li><a href="#">FMCG Jobs</a></li>
+                        <li><a href="#">Constructions Jobs</a></li>
+                        <li><a href="#">Chemicals Jobs</a></li>
+                        <li><a href="#">Media Jobs</a></li>
+                        <li><a href="#">Retailing Jobs</a></li>
+                        <li><a href="#">PR Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <h6>Govt Jobs</h6>
+                    <hr class="deep-purple  accent-2 mb-4 mt-0 d-inline-block mx-auto">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#">Teaching Jobs</a></li>
+                        <li><a href="#">Defence Jobs</a></li>
+                        <li><a href="#">Bank Jobs</a></li>
+                        <li><a href="#">Railway Jobs</a></li>
+                        <li><a href="#">UPSC Jobs</a></li>
+                        <li><a href="#">SSC Jobs</a></li>
+                        <li><a href="#">Law Jobs</a></li>
+                        <li><a href="#">Engineering Jobs</a></li>
+                        <li><a href="#">Post Graduate Jobs</a></li>
+                        <li><a href="#">Navy Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <h6>Career Center</h6>
+                    <hr class="deep-purple  accent-2 mb-4 mt-0 d-inline-block mx-auto">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#">Career Mangament Tips </a></li>
+                        <li><a href="#">Interview Tips </a></li>
+                        <li><a href="#">Work Life Balance Tips</a></li>
+                        <li><a href="#">Resume Cover & Letters</a></li>
+                        <li><a href="#">Salary Negotiation</a></li>
+                        <li><a href="#">How to Job Search</a></li>
+                        <li><a href="#">Career Tips for Women</a></li>
+                        <li><a href="#">How to Save Tax</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-2 col-md-12">
+                    <h6>Information</h6>
+                    <hr class="accent-2 mb-4 mt-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About </a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Career at DummyJobs</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Create Account</a></li>
+                        <li><a href="#">DummyJobs App</a></li>
+                        <li><a href="#">Job Alert</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Find Companies</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <h6>Useful Links</h6>
+                    <hr class="accent-2 mb-4 mt-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Report a Bug/Abuse</a></li>
+                        <li><a href="#">Fraud/Security</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Complaint</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">RSS job Feed</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <h6>All Jobs</h6>
+                    <hr class="accent-2 mb-4 mt-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#">Walkin Jobs</a></li>
+                        <li><a href="#">Contract Jobs</a></li>
+                        <li><a href="#">Placement Jobs</a></li>
+                        <li><a href="#">Jobs for Women</a></li>
+                        <li><a href="#">Startup Jobs</a></li>
+                        <li><a href="#">International Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12">
+                    <h6>For Employers</h6>
+                    <hr class="accent-2 mb-4 mt-0">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#">Post jobs</a></li>
+                        <li><a href="#">Register Now</a></li>
+                        <li><a href="#">Employer's Login</a></li>
+                        <li><a href="#">Free Job Posting</a></li>
+                        <li><a href="#">Premium Job posting</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Report a Problem</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <h6>SUBSCRIBE</h6>
+                    <hr class="accent-2 mb-4 mt-0">
+                    <div class="input-group w-100">
+                        <input type="text" class="form-control  border" placeholder="Email">
+                        <div class="input-group-append ">
+                            <button type="button" class="btn btn-primary "> Subscribe </button>
+                        </div>
+                    </div>
+                    <h6 class="mb-2 mt-5">Follow Us</h6>
+                    <hr class="accent-2 mb-4 mt-0">
+                    <ul class="social mb-0">
+                        <li><a class="social-icon" href=""><i class="fa fa-facebook"></i></a></li>
+									<li><a class="social-icon" href=""><i class="fa fa-twitter"></i></a></li>
+									<li><a class="social-icon" href=""><i class="fa fa-rss"></i></a></li>
+									<li><a class="social-icon" href=""><i class="fa fa-youtube"></i></a></li>
+									<li><a class="social-icon" href=""><i class="fa fa-linkedin"></i></a></li>
+									<li><a class="social-icon" href=""><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12">
+                    <p class="text-center text-white-50">Copyright <i class=" mdi mdi-copyright"></i> 2020 <a href="index.html" class="fs-14 text-white">Dummy Jobs</a> All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
